@@ -6,7 +6,7 @@ const Home = () => {
     <div id='home-11'>
     <div className='homepage'>
       <h1 className='homepage-h1'>DESIGN YOUR DREAM HOME WITH US</h1>
-      <p className='homepage-p-tag'>the hi essence of interior design will always be about people and how they live.<br></br>
+      <p className='homepage-p-tag'>hi essence of interior design will always be about people and how they live.<br></br>
       Transforming spaces into stylish, functional interiors with our innovative designs.</p>
       <button className='homepage-btn'>Design</button>
 
