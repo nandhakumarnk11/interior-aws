@@ -1,0 +1,347 @@
+
+.homepage{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./img/HOMEPAGE.111.png);
+    background-position: center;
+    background-size: cover;
+}
+
+
+.homepage-h1{
+   color: beige;
+   padding-top: 18%;
+   margin-left: 26%;
+}
+.homepage-p-tag{
+    color: white;
+    margin-left: 31%;
+
+}
+.homepage-btn{
+    margin-left: 48%;
+    border: none;
+    background-color: chocolate;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1px;
+
+
+}
+
+
+
+.home2div{
+    justify-content: space-between;
+    display: flex;
+    background-color: black;
+    padding-top: 5%;
+}
+
+
+
+.home2-card-1{
+    width: 45%;
+    height: 50vh;
+  
+    margin-left: 5%;
+    background-image: url(./img/Untitled\ \(2\).png);
+    background-position: center;
+    background-size: cover;
+}
+.homecard-2{
+    width: 100%;
+    height: 60vh;
+}
+
+.home2-card-2{
+    width: 30%;
+    height: 60vh;
+    margin-right: 5%;
+    padding-top: 10%;
+    background-image: url(./img/Untitled\ \(3\).png);
+    background-position: center;
+    background-size: cover;
+    float: right;
+}
+.home2-card-para {
+    margin-left: 3%;
+    margin-right: 10%;
+    margin-top: 10%;
+    color: wheat;
+    font-weight: bold;
+    text-align: justify;
+
+}
+.home2-card-para-2 {
+
+    margin-right: 40%;
+    margin-left: 5%;
+    padding-top: 10%;
+    color: wheat;
+    font-weight: bold;
+    text-align: justify;
+    
+}
+.thirdpage-home{
+    background-color: black;
+    width: 100%;
+    height: auto;
+    padding-bottom: 10%;
+}
+
+
+.homecard-3{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+}
+.home2-card-3{
+    width: 80%;
+    height: 60vh;
+    margin-left: 5%;
+    margin-top: 0%;
+    background-image: url(./img/Untitled\ \(2\).png);
+    background-position: center;
+    background-size: cover;
+ 
+}
+.home2-card-para-3 {
+
+    margin-right: 10%;
+    margin-left: 5%;
+    padding-top: 10%;
+    color: wheat;
+    font-weight: bold;
+    text-align: justify;
+   
+
+    
+}
+.homecard-4{
+    width: 100%;
+    height: 60vh;
+   
+}
+.home2-card-4{
+    width: 30%;
+    height: 60vh;
+    margin-right: 5%;
+    padding-top: 10%;
+    background-image: url(./img/Untitled\ \(3\).png);
+    background-position: center;
+    background-size: cover;
+    float: right;
+}
+.home2-card-para-4 {
+
+    margin-right: 40%;
+    margin-left: 5%;
+    padding-top: 10%;
+    color: wheat;
+    font-weight: bold;
+    text-align: justify;
+    
+}
+.homecard-5{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+}
+.home2-card-5{
+    width: 80%;
+    height: 60vh;
+    margin-left: 5%;
+    margin-top: 0%;
+    background-image: url(./img/Untitled\ \(2\).png);
+    background-position: center;
+    background-size: cover;
+ 
+}
+.home2-card-para-5 {
+
+    margin-right: 10%;
+    margin-left: 5%;
+    padding-top: 10%;
+    color: wheat;
+    font-weight: bold;
+    text-align: justify;
+   
+
+    
+}
+
+
+
+@media screen and (max-width:425px) {
+    .homepage{
+        margin-top: 0;
+        width: 100%;
+        height: 50vh;
+        background-image: url(./img/HOMEPAGE.111.png);
+        background-position: fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    .homepage-h1{
+        color: beige;
+        padding-top: 33%;
+        margin-left: 18%;
+        font-size: 14px;
+        
+     }
+     .homepage-p-tag{
+       display: none;
+    }
+    .homepage-btn{
+        margin-left: 43%;
+        border: none;
+        background-color: chocolate;
+        color: white;
+        font-weight: bold;
+    
+    
+    }
+
+    .home2div{
+    
+        display:  inline-flex;
+        justify-content: none;
+        background-color: #000000;
+        padding-top: 5%;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .home2-card-1{
+        width: 100%;
+        height: 50vh;
+      
+        background-image: url(./img/Untitled\ \(2\).png);
+        background-position: center;
+        background-size: cover;
+        margin-left: 0%;
+    
+        
+    }
+    .homecard-2{
+       
+        width: 100%;
+        height: auto;
+    }
+    .home2-card-2{
+        width: 100%;
+        height: 50vh;
+      
+        background-image: url(./img/Untitled\ \(3\).png);
+        background-position: center;
+        background-size: cover;
+        flex-wrap: wrap;
+        display: block;
+        margin-right: 0%;
+        margin-top: 10%;
+    }
+
+
+
+    .home2-card-para {
+      display: none;
+      background-color: #000000;
+    }
+    .home2-card-para-2 {
+
+        margin-right: 5%;
+        margin-left: 5%;
+        padding-top: 10%;
+        color: wheat;
+        font-weight: bold;
+        text-align: justify;
+    }
+    .homecard-3{
+       
+        width: 100%;
+        height: 60vh;
+        display: inline;
+    }
+    .home2-card-3{
+        width: 100%;
+        height: 60vh;
+        margin-left:0%;
+        margin-top: 0%;
+        background-image: url(./img/Untitled\ \(2\).png);
+        background-position: center;
+        background-size: cover;
+        float: left;
+    }
+    .home2-card-para-3 {
+
+        margin-right: 5%;
+        margin-left: 5%;
+        padding-top: 10%;
+        color: wheat;
+        font-weight: bold;
+        text-align: justify;
+       
+        
+    }
+
+
+
+
+    .homecard-4{
+        width: 100%;
+        height: auto;
+        
+    }
+    .home2-card-4{
+        width: 100%;
+        height: 60vh;
+        margin-right: 5%;
+        padding-top: 10%;
+        background-image: url(./img/Untitled\ \(3\).png);
+        background-position: center;
+        background-size: cover;
+        float: none;
+    }
+    .home2-card-para-4 {
+    
+        margin-right: 5%;
+        margin-left: 5%;
+        padding-top: 10%;
+        color: wheat;
+        font-weight: bold;
+        text-align: justify;
+        
+    }
+
+    .homecard-5{
+        width: 100%;
+        height: 60vh;
+        display: inline;
+    }
+    .home2-card-5{
+        width: 100%;
+        height: 60vh;
+        margin-left:0%;
+        margin-top: 0%;
+        background-image: url(./img/Untitled\ \(2\).png);
+        background-position: center;
+        background-size: cover;
+        float: left;
+    }
+    .home2-card-para-5 {
+
+        margin-right: 5%;
+        margin-left: 5%;
+        padding-top: 10%;
+        color: wheat;
+        font-weight: bold;
+        text-align: justify;
+       
+        
+    }
+
+    
+    
+}

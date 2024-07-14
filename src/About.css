@@ -1,0 +1,389 @@
+.wholeaboutpage{
+    background-color: black;
+    padding-bottom: 2%;
+}
+.aboutpage{
+    display: flex;
+    background-color: black;
+    
+    padding-top: 5%;
+}
+.aboutpage-1{
+        width: 40%;
+        height: 90vh;
+        border: 2px solid transparent;
+        margin-left: 10%;
+        background-image: url(./img/about_img_02.png);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        
+}
+
+
+.aboutpage-2{
+    width: 50%;
+        height: 90vh;
+        border: 2px solid transparent;
+}
+.aboutpage-heading{
+display: flex;
+}
+
+.aboutpage-h3{
+    font-weight: bold;
+    color: white;
+    padding-left: 2%;
+    padding-top: 2.7%;
+
+}
+.aboutpage-h3-hr{
+    color: chocolate;
+    margin-left: 3%;
+}
+.aboutpage-big-heading{
+    color: white;
+    margin-left: 3%;
+    font-size: 60px;
+    
+}
+.about-colourdiv{
+    margin-left: 3%;
+    border-left: 2px solid chocolate;
+    margin-top: 5%;
+}
+.about-colourdiv-p{
+    padding-left: 3%;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+.para-lastdiv{
+    color: gray;
+    margin-left: 3%;
+    margin-top: 3%;
+}
+.about-btn{
+    margin-left: 3%;
+    border: none;
+    background-color: orangered;
+    color: whitesmoke;
+    width: 15%;
+    height: 5vh;
+    margin-top: 2%;
+    font-weight: bold;
+}
+.about-sign-page{
+    width: 10%;
+    height: 5vh;
+    background-image: url(./img/Untitled\ design\ \(1\).png);
+    background-position: center;
+    background-size: 200PX;
+    background-repeat: no-repeat;
+    margin-top: 2%;
+    margin-left: 3%;
+ 
+
+
+}
+.about-btn-sign{
+
+    display: flex;
+}
+.aboutpage-container{
+    width: 30%;
+    height: 30vh;
+    margin-top: 5%;
+    margin-left: 2%;
+    background-color: #1e1e1e;
+    position: relative;
+}
+.aboutpage-container::after{
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 3px;
+    background-color: orangered;
+    left: 0;
+    transition: 0.5s linear;
+
+}
+.aboutpage-container:hover::after{
+    width: 100%;
+}
+
+.aboutpage-cont{
+    display: flex;
+    column-gap: 20px;
+    background-color: black;
+
+}
+.aboutpage-cont-2{
+    display: flex;
+    column-gap: 20px;
+    background-color: black;
+   
+}
+
+.aboutpage-container-2{
+    width: 30%;
+    height: 30vh;
+    background-color: #1e1e1e;
+    margin-top: 2%;
+    margin-left: 2%;
+    position: relative;
+}
+.aboutpage-container-2::after{
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 3px;
+    background-color: orangered;
+    left: 0;
+    transition: 0.5s linear;
+}
+.aboutpage-container-2:hover::after{
+    width: 100%;
+}
+
+
+
+.about-page2{
+    display: flex;
+    background-color: black;
+    margin-top: 5%;
+}
+.about-page2-hr{
+    color: orangered;
+    margin-left: 41%;
+}
+.about-page2-head{
+    padding-top: 0.7%;
+    padding-left: 1%;
+    color: white;
+}
+.about-page2-h1{
+    background-color: black;
+    color: white;
+    margin-left: 35%;
+}
+.aboutpage-container-no-1{
+    width: 30%;
+    height: 35vh;
+    float: left;
+    background-image: url(./img/se-icon1.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    margin-top: 5%;
+    padding-left: 20%;
+    
+}
+.aboutpage-container-no-2{
+    
+   
+    width: 70%;
+    height: 35vh;
+    float: right;
+}
+.aboutpage-container-no-2-h3{
+    margin-top: 7%;
+    color: white;
+    margin-left: 2%;
+}
+.aboutpage-container-no-2-para{
+    margin-top: 15%;
+    color: gray;
+    margin-left: 2%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:425px) {
+    .aboutpage{
+        display: block;
+        background-color: black;
+        padding-top: 0%;
+        
+    }
+    .aboutpage-1{
+        width: 90%;
+        height: 90vh;
+        border: 2px solid transparent;
+        margin-left: 5%;
+        background-image: url(./img/about_img_02.png);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        
+}
+
+
+.aboutpage-2{
+    width: 100%;
+    height: 90vh;
+    border: 2px solid transparent;
+}
+.aboutpage-heading{
+display: flex;
+}
+
+.aboutpage-h3{
+    font-weight: bold;
+    color: white;
+    padding-left: 2%;
+    padding-top: 4%;
+
+}
+.aboutpage-h3-hr{
+    color: chocolate;
+    margin-left: 25%;
+}
+.aboutpage-big-heading{
+    color: white;
+    margin-left: 20%;
+    font-size: 20px;
+    margin-top: 0;
+    padding-top: 0%;
+}
+.about-colourdiv{
+    margin-left: 3%;
+    border-left: 2px solid chocolate;
+    padding-top: 10%;
+
+    color: azure;
+}
+.about-colourdiv-p{
+
+        font-size: 15px;
+        padding-left: 3%;
+        margin-top: 1%;
+        color: yellowgreen;
+        
+}
+.para-lastdiv{
+    color: cornsilk;
+    margin-left: 3%;
+    margin-top: 3%;
+    font-size: 15px;
+}
+.about-btn{
+    margin-left: 3%;
+    border: none;
+    background-color: orangered;
+    color: whitesmoke;
+    width: 35%;
+    height: 5vh;
+    font-weight: bold;
+}
+.about-sign-page{
+    width: 20%;
+    height: 5vh;
+    background-image: url(./img/Untitled\ design\ \(1\).png);
+    background-position: center;
+    background-size: 200PX;
+    background-repeat: no-repeat;
+    margin-top: 2%;
+    margin-left: 3%;
+ 
+
+
+}
+.about-btn-sign{
+
+    display: flex;
+    margin-top: 0%;
+    
+}
+.aboutpage-cont{
+    display: inline;
+
+    background-color: black;
+
+}
+.aboutpage-cont-2{
+    display: inline;
+    background-color: black;
+    margin-top: 0;
+    padding-top: 0;
+}
+.aboutpage-container{
+    width: 95%;
+    height: 30vh;
+    margin-top: 5%;
+    margin-left: 2%;
+    background-color: #1e1e1e;
+}
+.aboutpage-container-2{
+    width: 95%;
+    height: 30vh;
+    background-color: #1e1e1e;
+    margin-top: 2%;
+    margin-left: 2%;
+    
+}
+.aboutpage-container-no-1{
+    width: 30%;
+    height: 30vh;
+    float: left;
+    background-image: url(./img/se-icon1.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    margin-top: 0%;
+    padding-left: 0%;
+    
+}
+.aboutpage-container-no-2{
+    
+   
+    width: 70%;
+    height: 30vh;
+    float: right;
+    
+}
+.aboutpage-container-no-2-h3{
+    margin-top: 7%;
+    color: white;
+    margin-left: 2%;
+}
+.aboutpage-container-no-2-para{
+    margin-top: 7%;
+    color: gray;
+    margin-left: 2%;
+}
+.about-page2-hr{
+    color: orangered;
+    margin-left: 23%;
+}
+.about-page2-head{
+    padding-top: 3%;
+    padding-left: 1%;
+    color: white;
+}
+.about-page2-h1{
+    background-color: black;
+    color: white;
+    margin-left: 10%;
+    font-size: 25px;
+}
+
+}

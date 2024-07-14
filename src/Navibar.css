@@ -1,0 +1,47 @@
+
+.navibar-1{
+    padding-left: 78%;
+    text-decoration: none;
+   
+}
+.navlinked{
+    text-decoration: none;
+    color: white;
+}
+.navicolur{
+    background-color: grey;
+}
+.navi-h1{
+    color: black;
+    margin-left: 6%;
+    font-weight: bold;
+
+}
+.nav-tittle{
+    color: black;
+    font-weight: bold;
+}
+.nav-tittle:hover{
+    color: black;
+}
+.navi-icons{
+    color: black;
+    font-weight: bold;
+}
+.navi-icons:hover{
+    color: black;
+}
+
+@media screen and (max-width:425px) {
+
+
+
+.navi-h1{
+    color: white;
+    margin-left: 2%;
+    font-weight: bold;
+
+}
+
+
+}
